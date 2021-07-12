@@ -97,7 +97,7 @@ a.nav-link {
     display: block;
     margin: auto; }
   .imagenMenu {
-    width: 98vw;
+    width: 100vw;
     height: 100vh; } }
 
 .card-title {
@@ -459,7 +459,7 @@ ul {
     grid-gap: 5px; } }
 
 .imagenMenu, .divisor, .fondoContacto, .fondoProyecto, .fondoCatalogo {
-  width: 98vw;
+  width: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
