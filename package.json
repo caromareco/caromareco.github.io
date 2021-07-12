@@ -16,5 +16,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caromareco/caromareco.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caromareco/caromareco.github.io/issues"
+  },
+  "homepage": "https://github.com/caromareco/caromareco.github.io#readme",
   "description": ""
 }
