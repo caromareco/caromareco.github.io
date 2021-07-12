@@ -26,12 +26,6 @@
 a.nav-link {
   color: rgba(0, 0, 0, 0.611); }
 
-.logo {
-  margin-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px; }
-
 .logoMenu {
   padding-top: 100px;
   text-align: center; }
@@ -96,7 +90,8 @@ a.nav-link {
     padding-left: 0px;
     padding-right: 0px; }
   .logo {
-    margin-left: 32%; }
+    display: block;
+    margin: auto; }
   .imagenMenu {
     width: 98vw;
     height: 100vh; } }
@@ -418,6 +413,34 @@ form {
   height: 100vh;
   background-image: url(../img/fondoNosotros.jpg); }
 
+/*----------------NAV DESPLEGABLE----------------*/
+.nav > li {
+  float: left; }
+
+ul {
+  list-style: none; }
+
+.nav li a {
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block; }
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px; }
+
+.nav li:hover > ul {
+  display: block; }
+
+.nav li ul li {
+  position: relative; }
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px; }
+
+/*----------------FIN NAV DESPLEGABLE----------------*/
 @media only screen and (max-width: 600px) {
   .tituloCatalogo {
     font-size: 15px;
