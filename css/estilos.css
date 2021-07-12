@@ -41,6 +41,10 @@ a.nav-link {
   -webkit-transform: scale(1.2);
   -o-transform: scale(1.2); }
 
+.logo {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 .pedirPresupuesto {
   text-align: center;
   padding-top: 50px; }
