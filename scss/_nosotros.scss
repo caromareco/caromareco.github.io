@@ -1,14 +1,8 @@
 .nosotros{
-    padding: 5%;
+    padding: 3%;
     width: 100vw;
     display: block;
-    border: 2px solid #594A3C;
-}
-
-.nosotros img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    border: 0px solid #594A3C;
 }
 
 .nosotros h3{
@@ -23,7 +17,7 @@
 
 .nosotrosTexto p{
     margin: 2%;
-    font-size: 0.8em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -33,19 +27,13 @@
     } 
 
     .nosotrosTexto p{
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .nosotrosTexto{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .nosotrosTexto img {
-        margin-bottom: 10px;
-        width: 170px;
-        height: 160px;
     }
 
 }
