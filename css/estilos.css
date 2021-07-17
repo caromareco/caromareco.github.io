@@ -1,6 +1,6 @@
 .imagenMenu {
   height: 100vh;
-  background-image: url(../img/fondoMenu.jpg); }
+  background-image: url(../img/fondoNosotros.jpg); }
 
 .nav-item {
   font-family: 'Cinzel', serif; }
@@ -200,7 +200,7 @@ h2 {
 
 .nosotros {
   padding: 5%;
-  width: 100%;
+  width: 100vw;
   display: block;
   border: 2px solid #594A3C; }
 
@@ -239,11 +239,14 @@ h2 {
 .site__main p, i {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   text-align: center;
   clear: both;
-  font-size: 30px;
-  line-height: 2; }
+  font-size: 2.4em;
+  line-height: 2.6; }
+
+i {
+  font-size: 1em; }
 
 .site__main {
   position: relative; }
@@ -266,9 +269,10 @@ h2 {
     padding-top: 0px;
     padding-left: 0px; }
   .site__main p, i {
-    font-size: 10px;
-    width: 90vw;
-    line-height: 3; }
+    font-size: 15px;
+    width: 100vw;
+    line-height: 2;
+    letter-spacing: 8px; }
   .textoArquitecto {
     transform: translate(-50%, 25%); } }
 

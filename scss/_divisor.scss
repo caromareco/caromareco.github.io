@@ -2,12 +2,16 @@
 .site__main p, i { 
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   text-align: center;
   clear: both;
-  font-size: 30px;
-  line-height: 2;
+  font-size: 2.4em;
+  line-height: 2.6;
 
+}
+
+i {
+  font-size: 1em;
 }
 
 .site__main{
@@ -39,9 +43,10 @@
   }
 
   .site__main p, i{
-    font-size: 10px;
-    width: 90vw;
-    line-height: 3;
+    font-size: 15px;
+    width: 100vw;
+    line-height: 2;
+    letter-spacing: 8px;
   }
 
   .textoArquitecto{
