@@ -54,9 +54,9 @@ a.nav-link {
     text-align: center;
 }
 
-.logoMenu img{
-    width: 500px;
-    height: 500px;
+.logoMenu img {
+    width: 40%;
+    height: 40%;
 }
 
 .logoMenu img:hover{
@@ -134,7 +134,11 @@ ul {
 
 /*----------------FIN NAV DESPLEGABLE----------------*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1200px){
+    
+}
+
+@media only screen and (max-width: 576px){
     
     .nav li a {
         padding: 8px 4px;
@@ -146,11 +150,6 @@ ul {
 
     .logoMenu{
         padding-top: 44%;
-    }
-
-    .logoMenu img{
-        width: 200px;
-        height: 200px;
     }
 
     .btn{
@@ -195,7 +194,7 @@ ul {
 
     .imagenMenu {
         width: 100vw;
-        height: 80vh;
+        height: 84vh;
     }
 
     .nosotros h3 {
@@ -207,8 +206,24 @@ ul {
     }
 
     .logo img {
-        width: 100px;
-        height: 90px;
+        width: 30%;
+        height: 30%;
     }
+
+    .logoMenu img {
+        width: 50%;
+    }
+
+    .animate__animated{
+        font-size: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .logoMenu{
+        padding-top: 44%;
+    }
+
     
 }
