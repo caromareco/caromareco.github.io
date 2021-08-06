@@ -398,6 +398,9 @@ form {
 .desarrolloTotal {
   background-image: url(../img/fondoNosotros.jpg); }
 
+.card {
+  margin: 15px; }
+
 .site__main p, i {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
