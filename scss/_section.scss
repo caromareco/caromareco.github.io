@@ -11,16 +11,11 @@
 }
 
 .card-group{
-    margin: 50px 30px 50px 50px;
-}
-
-.card img:hover{
-    transform:scale(1.2);
-    transition: all 500ms ease-in-out; // Safari and Chrome 
+    margin: 20px 30px 50px 50px;
 }
 
 h2{
-    margin-top: 50px;
+    margin-top: 20px !important;
     font-weight: bold;
     text-align: center;
     background-image: linear-gradient(
