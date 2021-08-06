@@ -55,6 +55,7 @@ a.nav-link {
 }
 
 .logoMenu img {
+    vertical-align:middle;
     width: 40%;
     height: 40%;
 }
@@ -97,47 +98,6 @@ a.nav-link {
     background-color: white;
 }
 
-/*----------------NAV DESPLEGABLE----------------*/
-
-.nav > li {
-    float:left;
-}
-
-ul {
-    list-style:none;
-}
-
-.nav li a {
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
-/*----------------FIN NAV DESPLEGABLE----------------*/
-
-@media only screen and (max-width: 1200px){
-    
-}
-
 @media only screen and (max-width: 576px){
     
     .nav li a {
@@ -176,6 +136,7 @@ ul {
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
+        justify-content: space-around;
     }
 
     .nav-item {
@@ -221,8 +182,8 @@ ul {
 }
 
 @media only screen and (max-width: 768px){
-    .logoMenu{
-        padding-top: 44%;
+    .logoMenu {
+        padding-top: 28%;
     }
 
     

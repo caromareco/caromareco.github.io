@@ -33,3 +33,11 @@
     transform: translate(-50%, 25%);
   }
 }
+
+@media only screen and (min-width: 1200px){
+  .site__main p, i{
+    font-size: 1.8em;
+  }
+
+
+}

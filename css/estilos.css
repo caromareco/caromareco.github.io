@@ -39,6 +39,7 @@ a.nav-link {
   text-align: center; }
 
 .logoMenu img {
+  vertical-align: middle;
   width: 40%;
   height: 40%; }
 
@@ -73,34 +74,6 @@ a.nav-link {
 .navegadorTotal {
   background-color: white; }
 
-/*----------------NAV DESPLEGABLE----------------*/
-.nav > li {
-  float: left; }
-
-ul {
-  list-style: none; }
-
-.nav li a {
-  text-decoration: none;
-  padding: 10px 12px;
-  display: block; }
-
-.nav li ul {
-  display: none;
-  position: absolute;
-  min-width: 140px; }
-
-.nav li:hover > ul {
-  display: block; }
-
-.nav li ul li {
-  position: relative; }
-
-.nav li ul li ul {
-  right: -140px;
-  top: 0px; }
-
-/*----------------FIN NAV DESPLEGABLE----------------*/
 @media only screen and (max-width: 576px) {
   .nav li a {
     padding: 8px 4px; }
@@ -123,7 +96,8 @@ ul {
     display: flex;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none; }
+    list-style: none;
+    justify-content: space-around; }
   .nav-item {
     display: flex;
     flex-direction: row; }
@@ -149,7 +123,7 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .logoMenu {
-    padding-top: 44%; } }
+    padding-top: 28%; } }
 
 .card-title {
   font-weight: bold; }
@@ -196,8 +170,8 @@ h2 {
 
 .footer-basic {
   width: 100%;
-  position: fixed;
   bottom: 0;
+  position: fixed;
   padding: 0;
   background-color: #ffffff;
   color: #4b4c4d; }
@@ -267,6 +241,10 @@ i {
   .list-inline-item a {
     font-size: 10px; } }
 
+@media only screen and (min-width: 1200px) {
+  .footer-basic {
+    position: fixed; } }
+
 .nosotros {
   padding: 3%;
   width: 100vw;
@@ -320,6 +298,10 @@ i {
     letter-spacing: 8px; }
   .textoArquitecto {
     transform: translate(-50%, 25%); } }
+
+@media only screen and (min-width: 1200px) {
+  .site__main p, i {
+    font-size: 1.8em; } }
 
 * {
   box-sizing: border-box; }
@@ -470,11 +452,12 @@ form {
 
 .desarrollo {
   display: flex;
-  flex-flow: row wrap;
   background-color: white;
   justify-content: center;
   padding: 50px 50px 50px 50px;
-  margin-top: 100px; }
+  margin-top: 100px;
+  flex-direction: row;
+  flex-wrap: nowrap; }
 
 .desarrolloTotal {
   height: 100vh;
