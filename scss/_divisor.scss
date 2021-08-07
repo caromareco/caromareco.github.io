@@ -47,8 +47,8 @@ i {
   .site__main p, i{
     font-size: 1em;
     width: 100vw;
-    line-height: 2.6;
-    letter-spacing: 9px;
+    line-height: 2;
+    letter-spacing: 3px;
   }
 
   .textoArquitecto{
@@ -61,6 +61,7 @@ i {
     font-size: 1.2em;
   }
 }
+
 
 @media only screen and (min-width: 1181px) and (max-width: 1499px) {
   .site__main p, i{
