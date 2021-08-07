@@ -56,7 +56,7 @@ a.nav-link {
 
 .logoMenu img {
     vertical-align:middle;
-    width: 40%;
+    width: 50%;
     height: 40%;
 }
 
@@ -70,7 +70,7 @@ a.nav-link {
 
 .pedirPresupuesto{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .btn-danger {
@@ -99,7 +99,7 @@ a.nav-link {
     background-color: white;
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 480px){
     
     .nav li a {
         padding: 8px 4px;
@@ -173,7 +173,7 @@ a.nav-link {
     }
 
     .logoMenu img {
-        width: 50%;
+        width: 45%;
     }
 
     .animate__animated{
@@ -184,8 +184,45 @@ a.nav-link {
 
 @media only screen and (max-width: 768px){
     .logoMenu {
-        padding-top: 28%;
+        padding-top: 20%;
+    } 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+    .logoMenu img {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+    .logoMenu img {
+        width: 30%;
     }
 
+    .logoMenu {
+        padding-top: 10%;
+    }
     
+   .btn-lg{
+        font-size: 1.4rem !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1920px) {
+
+    .btn-lg {
+        font-size: 1.8em !important;
+    }
+
+    .logoMenu img {
+        width: 30%;
+    }
+
+    .logoMenu {
+        padding-top: 10%;
+    }
+
+    .site__main p, i {
+        font-size: 3.2em;
+    }
 }

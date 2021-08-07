@@ -40,7 +40,7 @@ a.nav-link {
 
 .logoMenu img {
   vertical-align: middle;
-  width: 40%;
+  width: 50%;
   height: 40%; }
 
 .logoMenu img:hover {
@@ -52,7 +52,7 @@ a.nav-link {
 
 .pedirPresupuesto {
   text-align: center;
-  padding-top: 50px; }
+  padding-top: 60px; }
 
 .btn-danger {
   color: #fff;
@@ -75,7 +75,7 @@ a.nav-link {
 .navegadorTotal {
   background-color: white; }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .nav li a {
     padding: 8px 4px; }
   .tituloDePagina {
@@ -118,13 +118,35 @@ a.nav-link {
     width: 30%;
     height: 30%; }
   .logoMenu img {
-    width: 50%; }
+    width: 45%; }
   .animate__animated {
     font-size: 35px; } }
 
 @media only screen and (max-width: 768px) {
   .logoMenu {
-    padding-top: 28%; } }
+    padding-top: 20%; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .logoMenu img {
+    width: 30%; } }
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  .logoMenu img {
+    width: 30%; }
+  .logoMenu {
+    padding-top: 10%; }
+  .btn-lg {
+    font-size: 1.4rem !important; } }
+
+@media only screen and (min-width: 1500px) and (max-width: 1920px) {
+  .btn-lg {
+    font-size: 1.8em !important; }
+  .logoMenu img {
+    width: 30%; }
+  .logoMenu {
+    padding-top: 10%; }
+  .site__main p, i {
+    font-size: 3.2em; } }
 
 .card-title {
   font-weight: bold; }
@@ -219,7 +241,25 @@ h2 {
   height: 100vh;
   background-image: url(../img/fondoNosotros.jpg); }
 
-@media only screen and (max-width: 600px) {
+p {
+  color: #000000 !important; }
+
+.site__main p, i {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 15px;
+  text-align: center;
+  clear: both;
+  font-size: 1.4em;
+  line-height: 2.1; }
+
+i {
+  font-size: 1em; }
+
+.site__main {
+  position: relative; }
+
+@media only screen and (max-width: 768px) {
   .divisor {
     width: 100vw;
     height: 70vh; }
@@ -227,16 +267,25 @@ h2 {
     padding-top: 0px;
     padding-left: 0px; }
   .site__main p, i {
-    font-size: 15px;
+    font-size: 1.5em;
     width: 100vw;
-    line-height: 2;
-    letter-spacing: 8px; }
+    line-height: 2.6;
+    letter-spacing: 9px; }
   .textoArquitecto {
-    transform: translate(-50%, 25%); } }
+    transform: translate(-50%, 16%); } }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1180px) {
   .site__main p, i {
-    font-size: 1.8em; } }
+    font-size: 1.5em; } }
+
+@media only screen and (min-width: 1181px) and (max-width: 1499px) {
+  .site__main p, i {
+    font-size: 1.9em; } }
+
+@media only screen and (min-width: 1500px) and (max-width: 1920px) {
+  .site__main p, i {
+    font-size: 2em;
+    line-height: 2; } }
 
 * {
   box-sizing: border-box; }
@@ -400,21 +449,6 @@ form {
 
 .card {
   margin: 15px; }
-
-.site__main p, i {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  letter-spacing: 15px;
-  text-align: center;
-  clear: both;
-  font-size: 1.5em;
-  line-height: 2.1; }
-
-i {
-  font-size: 1em; }
-
-.site__main {
-  position: relative; }
 
 @media only screen and (max-width: 600px) {
   .desarrollo {
