@@ -190,13 +190,25 @@ a.nav-link {
 
 @media only screen and (min-width: 769px) and (max-width: 1199px) {
     .logoMenu img {
-        width: 30%;
+        width: 40%;
+    }
+
+    a .btn-group-lg>.btn, .btn-lg {
+        font-size: 1.4rem !important;
+    }
+
+    .animate__animated{
+        font-size: 50px;
+    }
+
+    a.nav-link{
+        font-size: 15px;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
     .logoMenu img {
-        width: 30%;
+        width: 40%;
     }
 
     .logoMenu {
@@ -205,6 +217,14 @@ a.nav-link {
     
    .btn-lg{
         font-size: 1.4rem !important;
+    }
+
+    .animate__animated{
+        font-size: 70px;
+    }
+
+    a.nav-link{
+        font-size: 20px;
     }
 }
 
@@ -215,7 +235,7 @@ a.nav-link {
     }
 
     .logoMenu img {
-        width: 30%;
+        width: 45%;
     }
 
     .logoMenu {
@@ -224,5 +244,13 @@ a.nav-link {
 
     .site__main p, i {
         font-size: 3.2em;
+    }
+
+    .animate__animated{
+        font-size: 100px;
+    }
+
+    a.nav-link{
+        font-size: 30px;
     }
 }

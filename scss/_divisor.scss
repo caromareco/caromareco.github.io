@@ -45,7 +45,7 @@ i {
   }
 
   .site__main p, i{
-    font-size: 1.5em;
+    font-size: 1em;
     width: 100vw;
     line-height: 2.6;
     letter-spacing: 9px;
@@ -58,13 +58,14 @@ i {
 
 @media only screen and (min-width: 769px) and (max-width: 1180px) {
   .site__main p, i {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
 @media only screen and (min-width: 1181px) and (max-width: 1499px) {
   .site__main p, i{
-    font-size: 1.9em;
+    font-size: 1.8em;
+    letter-spacing: 14px;
   }
 
 }
@@ -73,6 +74,7 @@ i {
 @media only screen and (min-width: 1500px) and (max-width: 1920px) {
   .site__main p, i{
     font-size: 2em;
-    line-height: 2;
+    line-height: 2.3;
+    letter-spacing: 22px;
   }
 }
