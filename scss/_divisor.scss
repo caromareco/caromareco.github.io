@@ -17,11 +17,15 @@
 .site__main p, i { 
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  letter-spacing: 15px;
+  /*letter-spacing: 15px;*/
   text-align: center;
   clear: both;
-  font-size: 1.4em;
-  line-height: 2.1;
+  /*font-size: 1.4em;
+  line-height: 2.1;*/
+  
+  font-size: 2.5em;
+  line-height: 2.3;
+  letter-spacing: 22px;
 }
 
 i {
@@ -45,10 +49,11 @@ i {
   }
 
   .site__main p, i{
-    font-size: 1em;
+    font-size: 1.3em;
     width: 100vw;
     line-height: 2;
     letter-spacing: 3px;
+    width: 100vw;
   }
 
   .textoArquitecto{
@@ -58,7 +63,8 @@ i {
 
 @media only screen and (min-width: 769px) and (max-width: 1180px) {
   .site__main p, i {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    letter-spacing: 16px;
   }
 }
 
@@ -79,3 +85,6 @@ i {
     letter-spacing: 22px;
   }
 }
+
+
+

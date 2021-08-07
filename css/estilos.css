@@ -116,11 +116,13 @@ a.nav-link {
     width: 30%;
     height: 30%; }
   .animate__animated {
-    font-size: 35px; } }
+    font-size: 30px; } }
 
 @media only screen and (max-width: 768px) {
+  .animate__animated {
+    font-size: 40px; }
   .nav-item {
-    font-size: 12px; }
+    font-size: 15px; }
   .logoMenu {
     padding-top: 20%; }
   .logoMenu img {
@@ -134,11 +136,15 @@ a.nav-link {
   .animate__animated {
     font-size: 50px; }
   a.nav-link {
-    font-size: 15px; } }
+    font-size: 17px; } }
 
 @media only screen and (min-width: 851px) and (max-width: 1203px) {
+  .animate__animated {
+    font-size: 55px; }
   .logoMenu img {
-    width: 30%; } }
+    width: 30%; }
+  a.nav-link {
+    font-size: 17px; } }
 
 @media only screen and (min-width: 1204px) and (max-width: 1499px) {
   .logoMenu img {
@@ -289,11 +295,14 @@ p {
 .site__main p, i {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  letter-spacing: 15px;
+  /*letter-spacing: 15px;*/
   text-align: center;
   clear: both;
-  font-size: 1.4em;
-  line-height: 2.1; }
+  /*font-size: 1.4em;
+  line-height: 2.1;*/
+  font-size: 2.5em;
+  line-height: 2.3;
+  letter-spacing: 22px; }
 
 i {
   font-size: 1em; }
@@ -309,16 +318,18 @@ i {
     padding-top: 0px;
     padding-left: 0px; }
   .site__main p, i {
-    font-size: 1em;
+    font-size: 1.3em;
     width: 100vw;
     line-height: 2;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    width: 100vw; }
   .textoArquitecto {
     transform: translate(-50%, 16%); } }
 
 @media only screen and (min-width: 769px) and (max-width: 1180px) {
   .site__main p, i {
-    font-size: 1.2em; } }
+    font-size: 1.3em;
+    letter-spacing: 16px; } }
 
 @media only screen and (min-width: 1181px) and (max-width: 1499px) {
   .site__main p, i {

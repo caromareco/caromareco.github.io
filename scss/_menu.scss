@@ -172,15 +172,19 @@ a.nav-link {
     }
 
     .animate__animated{
-        font-size: 35px;
+        font-size: 30px;
     }
     
 }
 
 @media only screen and (max-width: 768px){
 
+    .animate__animated{
+        font-size: 40px;
+    }
+
     .nav-item {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .logoMenu {
@@ -206,14 +210,24 @@ a.nav-link {
     }
 
     a.nav-link{
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
 @media only screen and (min-width: 851px) and (max-width: 1203px) {
+
+    .animate__animated{
+        font-size: 55px;
+    }
+
     .logoMenu img {
         width: 30%;
     }
+    
+    a.nav-link{
+        font-size: 17px;
+    }
+
 }
 
 @media only screen and (min-width: 1204px) and (max-width: 1499px) {
